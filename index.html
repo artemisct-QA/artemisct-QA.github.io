@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artemis Chalkiopoulou-Tzogklis | Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; }
+        nav { background: #111; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; }
+        nav h1 { color: #4fc3f7; font-size: 1.2rem; }
+        nav a { color: #e0e0e0; text-decoration: none; margin-left: 30px; font-size: 0.9rem; }
+        nav a:hover { color: #4fc3f7; }
+        .hero { text-align: center; padding: 100px 20px; }
+        .hero h2 { font-size: 3rem; color: #fff; }
+        .hero h2 span { color: #4fc3f7; }
+        .hero p { margin-top: 20px; font-size: 1.1rem; color: #aaa; max-width: 600px; margin-inline: auto; }
+        .tags { margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .tag { background: #1e1e1e; border: 1px solid #333; padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; color: #4fc3f7; }
+        .projects { padding: 60px 40px; max-width: 1100px; margin: auto; }
+        .projects h3 { font-size: 1.8rem; color: #fff; margin-bottom: 40px; border-left: 4px solid #4fc3f7; padding-left: 15px; }
+        .card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 30px; margin-bottom: 30px; transition: border-color 0.3s; }
+        .card:hover { border-color: #4fc3f7; }
+        .card h4 { font-size: 1.3rem; color: #4fc3f7; }
+        .card .company { font-size: 0.85rem; color: #888; margin-top: 4px; }
+        .card p { margin-top: 15px; color: #bbb; line-height: 1.7; font-size: 0.95rem; }
+        .card .tech { margin-top: 15px; display: flex; flex-wrap: wrap; gap: 8px; }
+        .card .tech span { background: #1a1a2e; color: #4fc3f7; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; }
+        .card .links { margin-top: 20px; }
+        .card .links a { color: #4fc3f7; text-decoration: none; margin-right: 20px; font-size: 0.9rem; border: 1px solid #4fc3f7; padding: 6px 16px; border-radius: 6px; }
+        .card .links a:hover { background: #4fc3f7; color: #000; }
+        footer { text-align: center; padding: 40px; color: #555; border-top: 1px solid #222; margin-top: 60px; }
+    </style>
 </head>
 <body>
-    <h1>Coming soon...</h1>
+
+<nav>
+    <h1>Artemis CT</h1>
+    <div>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h2>Hi, I'm <span>Artemis</span> 👋</h2>
+    <p>SDET at MORO TECH | Java | Automation | Backend Development | QA Engineering</p>
+    <div class="tags">
+        <span class="tag">Java</span>
+        <span class="tag">Spring Boot</span>
+        <span class="tag">Kafka</span>
+        <span class="tag">REST API</span>
+        <span class="tag">Selenium</span>
+        <span class="tag">Appium</span>
+        <span class="tag">CI/CD</span>
+        <span class="tag">Agile</span>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h3>Projects</h3>
+
+    <div class="card">
+        <h4>Midas Core — Financial Transaction Processing System</h4>
+        <div class="company">JPMorgan Chase & Co. · Advanced Software Engineering Simulation · Forage · May 2026</div>
+        <p>Built a high-volume financial transaction processing backend from scratch using Java and Spring Boot. Integrated Apache Kafka for real-time message ingestion, H2/JPA for database persistence, and REST APIs for external service communication. Implemented transaction validation logic, balance management, and an incentive system via external API integration.</p>
+        <div class="tech">
+            <span>Java 17</span>
+            <span>Spring Boot</span>
+            <span>Apache Kafka</span>
+            <span>H2 Database</span>
+            <span>JPA</span>
+            <span>REST API</span>
+            <span>Maven</span>
+            <span>JUnit</span>
+        </div>
+        <div class="links">
+            <a href="https://github.com/artemisct-QA/forage-midas" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+</section>
+
+<footer id="contact">
+    <p>Artemis Chalkiopoulou-Tzogklis · <a href="https://linkedin.com/in/YOUR-LINKEDIN" style="color:#4fc3f7">LinkedIn</a> · <a href="https://github.com/artemisct-QA" style="color:#4fc3f7">GitHub</a></p>
+</footer>
+
 </body>
 </html>
