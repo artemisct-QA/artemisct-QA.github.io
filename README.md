@@ -43,7 +43,7 @@ Built an AI-powered tool that auto-generates 200+ lines of production-quality te
 ## 🔗 Connect With Me
 
 - **Portfolio:** [artemisct-qa.github.io](https://artemisct-qa.github.io)
-- **LinkedIn:** [linkedin.com/in/YOUR-LINKEDIN](https://linkedin.com/in/YOUR-LINKEDIN)
+- **LinkedIn:** [linkedin.com/in/artemisct-21227348](https://www.linkedin.com/in/artemisct-21227348/)
 - **GitHub:** [@artemisct-QA](https://github.com/artemisct-QA)
 
 ---
