@@ -1,0 +1,32 @@
+{
+  "name": "ai-test-script-generator",
+  "version": "1.0.0",
+  "description": "AI-powered test script generator using Claude API - generates pytest and Jest tests from API specs",
+  "main": "scripts/generate_jest.js",
+  "type": "module",
+  "scripts": {
+    "generate:jest": "node scripts/generate_jest.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "sdet",
+    "pytest",
+    "jest",
+    "ai",
+    "claude",
+    "automation",
+    "test-generation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
